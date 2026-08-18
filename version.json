@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.0",
+  "latest_version": "1.1.1",
   "release_date": "2026-08-18",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "5.5 MB",
-  "full_size": "146.5 MB",
-  "changelog_vi": "• Tích hợp tính năng Cập nhật Online tự động (Auto-Update) và Cập nhật vi sai (Patch Update ~5.5 MB).\n• Nâng cấp giao diện bảng Tùy chọn In ấn (Printing Preferences) chuẩn Fluent UI song ngữ.\n• Hỗ trợ đa dạng khổ giấy (A0..A5, Letter, Legal, Executive, B4, B5, Khổ tùy chỉnh) tự động đồng bộ theo tệp đang mở.\n• Bổ sung tùy chọn đặt làm ứng dụng đọc PDF mặc định sau khi cài đặt.\n• Tích hợp môi trường Python 3.11 Embedded độc lập và hoàn thiện bộ công cụ OCR ngoại tuyến.",
-  "changelog_en": "• Integrated Online Auto-Update feature with lightweight Delta Patch Update (~5.5 MB).\n• Upgraded Printing Preferences dialog to modern bilingual Fluent UI.\n• Added multi-paper size support (A0..A5, Letter, Legal, Executive, B4, B5, Custom size) with automatic detection.\n• Added option to set as default Windows PDF reader upon setup completion.\n• Bundled standalone Python 3.11 Embedded runtime with full offline OCR conversion tools.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.0/HTP_PDF_Tools_Patch_v1.1.0.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.0/HTP_PDF_Tools_Free_Setup_v1.1.0.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.0/HTP_PDF_Tools_Free_Portable_v1.1.0.zip",
+  "patch_size": "18.0 MB",
+  "full_size": "146.6 MB",
+  "changelog_vi": "• Sửa lỗi hiển thị thông báo kiểm tra bản cập nhật mới nhất bị lặp chữ.\n• Sửa lỗi không xóa được mẫu chữ ký trong thanh công cụ chữ ký (Signature Gallery).\n• Nâng cấp hệ thống Auto-Update và tải bản vá vi sai Delta Patch nhanh chóng.",
+  "changelog_en": "• Fixed text duplication bug in the update checker dialog notification.\n• Fixed signature template deletion in the ribbon Signature Gallery.\n• Optimized online auto-update and lightweight patch deployment system.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Patch_v1.1.1.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Free_Setup_v1.1.1.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Free_Portable_v1.1.1.zip",
   "mandatory": false
 }
