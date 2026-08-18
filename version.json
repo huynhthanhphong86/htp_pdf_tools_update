@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.1",
-  "release_date": "2026-08-18",
+  "latest_version": "1.1.2",
+  "release_date": "2026-08-19",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "18.0 MB",
-  "full_size": "146.6 MB",
-  "changelog_vi": "• Sửa lỗi hiển thị thông báo kiểm tra bản cập nhật mới nhất bị lặp chữ.\n• Sửa lỗi không xóa được mẫu chữ ký trong thanh công cụ chữ ký (Signature Gallery).\n• Nâng cấp hệ thống Auto-Update và tải bản vá vi sai Delta Patch nhanh chóng.",
-  "changelog_en": "• Fixed text duplication bug in the update checker dialog notification.\n• Fixed signature template deletion in the ribbon Signature Gallery.\n• Optimized online auto-update and lightweight patch deployment system.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Patch_v1.1.1.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Free_Setup_v1.1.1.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.1/HTP_PDF_Tools_Free_Portable_v1.1.1.zip",
+  "patch_size": "17.3 MB",
+  "full_size": "192.6 MB",
+  "changelog_vi": "• Nâng cấp Ô chia ký tự (Comb Field): chia ô trực quan, tự động tính số ô, hỗ trợ tùy chỉnh số lượng ô từ 2 - 50 ký tự.\n• Khắc phục hoàn toàn lỗi font hiển thị dấu tích (✓), dấu gạch chéo (✕), dấu chấm tròn, đường kẻ sau khi lưu PDF sang chuẩn Vector Path Graphics sắc nét.\n• Nâng cấp Khung ký tương tác (Signature Field): nhấp trực tiếp để ký tên, nhúng ảnh chữ ký và tạo trường AcroForm /Sig chuẩn.",
+  "changelog_en": "• Enhanced Comb Field with visual cell partitions and configurable character count (2 - 50 cells).\n• Fixed checkmark (✓) and cross mark (✕) font tofu box rendering issues by switching to crisp Vector Path Graphics.\n• Upgraded interactive Signature Field with direct click-to-sign support and AcroForm /Sig integration.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Patch_v1.1.2.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Free_Setup_v1.1.2.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Free_Portable_v1.1.2.zip",
   "mandatory": false
 }
