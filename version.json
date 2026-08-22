@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.2",
-  "release_date": "2026-08-19",
+  "latest_version": "1.1.3",
+  "release_date": "2026-08-22",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "17.3 MB",
-  "full_size": "192.6 MB",
-  "changelog_vi": "• Nâng cấp Ô chia ký tự (Comb Field): chia ô trực quan, tự động tính số ô, hỗ trợ tùy chỉnh số lượng ô từ 2 - 50 ký tự.\n• Khắc phục hoàn toàn lỗi font hiển thị dấu tích (✓), dấu gạch chéo (✕), dấu chấm tròn, đường kẻ sau khi lưu PDF sang chuẩn Vector Path Graphics sắc nét.\n• Nâng cấp Khung ký tương tác (Signature Field): nhấp trực tiếp để ký tên, nhúng ảnh chữ ký và tạo trường AcroForm /Sig chuẩn.",
-  "changelog_en": "• Enhanced Comb Field with visual cell partitions and configurable character count (2 - 50 cells).\n• Fixed checkmark (✓) and cross mark (✕) font tofu box rendering issues by switching to crisp Vector Path Graphics.\n• Upgraded interactive Signature Field with direct click-to-sign support and AcroForm /Sig integration.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Patch_v1.1.2.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Free_Setup_v1.1.2.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.2/HTP_PDF_Tools_Free_Portable_v1.1.2.zip",
+  "patch_size": "17.5 MB",
+  "full_size": "192.8 MB",
+  "changelog_vi": "• Nâng cấp bảo mật tài liệu: Bỏ khoá yêu cầu mật khẩu chính xác và hỗ trợ mở khóa nhanh bằng tính năng ẩn.\n• Bổ sung tính năng Quét & Tạo mã vạch / QR Code trực tiếp trên tài liệu PDF.\n• Khắc phục hoàn toàn lỗi làm nổi bật (Highlight) trường biểu mẫu và sửa lỗi khi Đặt lại dữ liệu biểu mẫu.\n• Cải tiến xác thực đa chữ ký số chuẩn ISO 32000-1.",
+  "changelog_en": "• Enhanced document security: Unlock requires valid password with hidden quick force-unlock capability.\n• Added Barcode and QR Code generation & live scanning tools.\n• Fixed form field highlight rendering and safe form reset handling.\n• Improved multi-digital signature verification compliant with ISO 32000-1.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.3/HTP_PDF_Tools_Patch_v1.1.3.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.3/HTP_PDF_Tools_Free_Setup_v1.1.3.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.3/HTP_PDF_Tools_Free_Portable_v1.1.3.zip",
   "mandatory": false
 }
