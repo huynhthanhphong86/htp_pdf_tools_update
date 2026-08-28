@@ -1,14 +1,15 @@
 {
-  "latest_version": "1.1.6",
-  "release_date": "2026-08-26",
+  "latest_version": "1.1.7",
+  "release_date": "2026-08-28",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
   "patch_size": "18 MB",
   "full_size": "194 MB",
-  "changelog_vi": "• Bổ sung đầy đủ thư viện PDFium x86/x64 vào gói chạy, khắc phục lỗi không tìm thấy pdfium.dll.\n• Đồng bộ toàn bộ bộ icon Ribbon vào bản phát hành, khắc phục icon hiển thị dấu ba chấm.\n• Cải thiện tương thích Barcode PDF417 với biểu mẫu được tạo từ Foxit Reader.\n• Sửa lỗi lưu và hiển thị giá trị Barcode sau khi thay đổi dữ liệu biểu mẫu.",
-  "changelog_en": "• Bundled both x86/x64 PDFium runtimes to fix missing pdfium.dll errors.\n• Synced the complete Ribbon icon set into release packages to prevent missing icons.\n• Improved PDF417 barcode compatibility with forms created by Foxit Reader.\n• Fixed barcode value persistence and rendering after form data changes.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.6/HTP_PDF_Tools_Patch_v1.1.6.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.6/HTP_PDF_Tools_Setup_v1.1.6.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.6/HTP_PDF_Tools_Portable_v1.1.6.zip",
+  "changelog_vi": "• Tối ưu và bù trừ lề cứng máy in vật lý (HardMargins), đảm bảo nội dung PDF in ra căn giữa chính xác 100% không bị lệch lề.\n• Ổn định hóa luồng dựng hình (UI Rendering Pipeline), cố định thứ tự tab công cụ Ribbon và chuẩn hóa hiển thị.\n• Hoàn thiện và đồng bộ hóa toàn diện hệ thống từ điển đa ngôn ngữ Tiếng Việt và Tiếng Anh.",
+  "changelog_en": "• Compensated hardware margins (HardMargins) for physical printers, ensuring printed PDF pages are accurately centered.\n• Stabilized the UI rendering pipeline, fixed Ribbon tab ordering, and refined layout standards.\n• Completed and fully synchronized Vietnamese and English localization resources.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Patch_v1.1.7.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Setup_v1.1.7.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Portable_v1.1.7.zip",
   "mandatory": false
 }
+
