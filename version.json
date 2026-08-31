@@ -1,15 +1,14 @@
 {
-  "latest_version": "1.1.7",
-  "release_date": "2026-08-28",
+  "latest_version": "1.1.8",
+  "release_date": "2026-08-31",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "18 MB",
-  "full_size": "194 MB",
-  "changelog_vi": "• Tối ưu và bù trừ lề cứng máy in vật lý (HardMargins), đảm bảo nội dung PDF in ra căn giữa chính xác 100% không bị lệch lề.\n• Ổn định hóa luồng dựng hình (UI Rendering Pipeline), cố định thứ tự tab công cụ Ribbon và chuẩn hóa hiển thị.\n• Hoàn thiện và đồng bộ hóa toàn diện hệ thống từ điển đa ngôn ngữ Tiếng Việt và Tiếng Anh.",
-  "changelog_en": "• Compensated hardware margins (HardMargins) for physical printers, ensuring printed PDF pages are accurately centered.\n• Stabilized the UI rendering pipeline, fixed Ribbon tab ordering, and refined layout standards.\n• Completed and fully synchronized Vietnamese and English localization resources.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Patch_v1.1.7.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Setup_v1.1.7.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.7/HTP_PDF_Tools_Portable_v1.1.7.zip",
+  "patch_size": "18.0 MB",
+  "full_size": "170.3 MB",
+  "changelog_vi": "• Giảm bộ nhớ khi xem PDF bằng cách giới hạn bộ đệm trang, thu hồi bitmap không còn hiển thị và tối ưu hàng đợi dựng trang.\n• Cuộn tài liệu nhanh mượt hơn, ưu tiên tải trang đang hiển thị và tránh trang trống tạm thời.\n• Cải thiện độ ổn định giao diện khi chuyển trang, thu phóng và xử lý tài liệu lớn.",
+  "changelog_en": "• Reduced PDF viewing memory through bounded page caching, reclamation of off-screen bitmaps, and a more efficient render queue.\n• Improved fast document scrolling by prioritizing visible pages and preventing temporary blank pages.\n• Improved UI stability when navigating, zooming, and handling large documents.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Patch_v1.1.8.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Setup_v1.1.8.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Portable_v1.1.8.zip",
   "mandatory": false
 }
-
