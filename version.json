@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.8",
-  "release_date": "2026-08-31",
+  "latest_version": "1.1.9",
+  "release_date": "2026-09-04",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "18.0 MB",
+  "patch_size": "17.6 MB",
   "full_size": "170.3 MB",
-  "changelog_vi": "• Giảm bộ nhớ khi xem PDF bằng cách giới hạn bộ đệm trang, thu hồi bitmap không còn hiển thị và tối ưu hàng đợi dựng trang.\n• Cuộn tài liệu nhanh mượt hơn, ưu tiên tải trang đang hiển thị và tránh trang trống tạm thời.\n• Cải thiện độ ổn định giao diện khi chuyển trang, thu phóng và xử lý tài liệu lớn.",
-  "changelog_en": "• Reduced PDF viewing memory through bounded page caching, reclamation of off-screen bitmaps, and a more efficient render queue.\n• Improved fast document scrolling by prioritizing visible pages and preventing temporary blank pages.\n• Improved UI stability when navigating, zooming, and handling large documents.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Patch_v1.1.8.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Setup_v1.1.8.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.8/HTP_PDF_Tools_Portable_v1.1.8.zip",
+  "changelog_vi": "• Nâng cấp bộ công cụ trang PDF: hỗ trợ chèn trang trắng, cắt xén (crop), xoay trang và chèn overlay tài liệu nâng cao.\n• Cải tiến tính năng ký điện tử: tối ưu hóa giao diện đặt chữ ký và xem trước trực quan vị trí ký.\n• Tinh chỉnh thanh công cụ Ribbon, chuẩn hóa hiển thị nhãn các công cụ chuyển đổi tài liệu và quản lý các tab trang.\n• Tối ưu bộ cài đặt và cập nhật: làm mới biểu tượng tức thì với Native Shell API và tự động đồng bộ số hiệu phiên bản trong Programs and Features khi áp dụng bản vá.",
+  "changelog_en": "• Enhanced PDF page tools: added support for blank page insertion, page cropping, rotation, and advanced document overlays.\n• Improved digital signature experience with streamlined placement dialog and visual positioning preview.\n• Refined Ribbon toolbar UI, standardized conversion tool labels, and optimized document tab management.\n• Optimized installer & updater workflows: instant icon refresh via native Shell API and automatic version synchronization in Programs and Features upon patch update.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Patch_v1.1.9.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Setup_v1.1.9.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Portable_v1.1.9.zip",
   "mandatory": false
 }
