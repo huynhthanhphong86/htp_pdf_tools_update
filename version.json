@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.9",
-  "release_date": "2026-09-04",
+  "latest_version": "1.1.10",
+  "release_date": "2026-09-10",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "17.6 MB",
+  "patch_size": "17.7 MB",
   "full_size": "170.3 MB",
-  "changelog_vi": "• Nâng cấp bộ công cụ trang PDF: hỗ trợ chèn trang trắng, cắt xén (crop), xoay trang và chèn overlay tài liệu nâng cao.\n• Cải tiến tính năng ký điện tử: tối ưu hóa giao diện đặt chữ ký và xem trước trực quan vị trí ký.\n• Tinh chỉnh thanh công cụ Ribbon, chuẩn hóa hiển thị nhãn các công cụ chuyển đổi tài liệu và quản lý các tab trang.\n• Tối ưu bộ cài đặt và cập nhật: làm mới biểu tượng tức thì với Native Shell API và tự động đồng bộ số hiệu phiên bản trong Programs and Features khi áp dụng bản vá.",
-  "changelog_en": "• Enhanced PDF page tools: added support for blank page insertion, page cropping, rotation, and advanced document overlays.\n• Improved digital signature experience with streamlined placement dialog and visual positioning preview.\n• Refined Ribbon toolbar UI, standardized conversion tool labels, and optimized document tab management.\n• Optimized installer & updater workflows: instant icon refresh via native Shell API and automatic version synchronization in Programs and Features upon patch update.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Patch_v1.1.9.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Setup_v1.1.9.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.9/HTP_PDF_Tools_Portable_v1.1.9.zip",
+  "changelog_vi": "• Khắc phục triệt để lỗi đôi khi không hiển thị icon ứng dụng trên Windows Taskbar: nhúng trực tiếp icon vào bộ nhớ assembly (EmbeddedResource), bổ sung cơ chế nạp fallback 5 tầng, gán Class Icon và đăng ký AppUserModelID chuẩn cho Windows Shell.\n• Tối ưu hóa giao diện khi cài đặt tỉ lệ scale Windows (125%, 150%): loại bỏ nét chữ đậm (Bold) thô cứng, chuẩn hóa font Segoe UI Regular thanh thoát cho thanh Ribbon, thanh tiêu đề và các tab tài liệu; hỗ trợ chế độ PerMonitorV2 High DPI auto-resizing chống tràn viền và vỡ bố cục.",
+  "changelog_en": "• Fixed intermittent missing application icon on Windows Taskbar: embedded icon as assembly resource, implemented 5-tier fallback loader, set window class icons, and registered explicit AppUserModelID for Windows Shell.\n• Optimized High DPI UI display (125%, 150% scaling): switched from heavy bold fonts to refined Segoe UI Regular across Ribbon buttons, window title, and document tabs; enabled PerMonitorV2 auto-resizing to prevent label clipping and layout distortion.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Patch_v1.1.10.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Setup_v1.1.10.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Portable_v1.1.10.zip",
   "mandatory": false
 }
