@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.10",
+  "latest_version": "1.1.11",
   "release_date": "2026-09-10",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
   "patch_size": "17.7 MB",
   "full_size": "170.3 MB",
-  "changelog_vi": "• Khắc phục triệt để lỗi đôi khi không hiển thị icon ứng dụng trên Windows Taskbar: nhúng trực tiếp icon vào bộ nhớ assembly (EmbeddedResource), bổ sung cơ chế nạp fallback 5 tầng, gán Class Icon và đăng ký AppUserModelID chuẩn cho Windows Shell.\n• Tối ưu hóa giao diện khi cài đặt tỉ lệ scale Windows (125%, 150%): loại bỏ nét chữ đậm (Bold) thô cứng, chuẩn hóa font Segoe UI Regular thanh thoát cho thanh Ribbon, thanh tiêu đề và các tab tài liệu; hỗ trợ chế độ PerMonitorV2 High DPI auto-resizing chống tràn viền và vỡ bố cục.",
-  "changelog_en": "• Fixed intermittent missing application icon on Windows Taskbar: embedded icon as assembly resource, implemented 5-tier fallback loader, set window class icons, and registered explicit AppUserModelID for Windows Shell.\n• Optimized High DPI UI display (125%, 150% scaling): switched from heavy bold fonts to refined Segoe UI Regular across Ribbon buttons, window title, and document tabs; enabled PerMonitorV2 auto-resizing to prevent label clipping and layout distortion.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Patch_v1.1.10.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Setup_v1.1.10.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.10/HTP_PDF_Tools_Portable_v1.1.10.zip",
+  "changelog_vi": "• Sửa lỗi khi thu gọn Ribbon (collapsed) thì bấm vào các nút lệnh, công cụ không có tác dụng do bị hủy sự kiện click sớm trên WM_LBUTTONDOWN.\n• Bổ sung tính năng Cố định công cụ (Pin Tool / KeepToolActive) cho phép thêm chữ, ghi chú, vẽ hình liên tục phục vụ tối ưu cho công việc dạy học, chấm bài.\n• Cơ chế tự động lưu (commit) văn bản khi click sang vị trí mới để tiếp tục nhập liệu ngay lập tức mà không cần chọn lại công cụ; nhấn phím ESC để hủy và quay lại công cụ Chọn / Cuộn trang.\n• Thêm cài đặt lưu định dạng mặc định (phông chữ, cỡ chữ, màu sắc, in đậm/nghiêng, độ dày nét) lưu vào cấu hình settings.ini.\n• Nâng cấp bảng Tùy chọn công cụ (ToolOptionPanel) với bộ chọn phông chữ, in đậm, in nghiêng, nút lưu mặc định và 3 mẫu dùng nhanh 1-click (🔴 Chấm bài, 🔵 Ghi chú, ⚫ Chuẩn).\n• Khắc phục triệt để sự cố tiến trình chuyển đổi sang PowerPoint/Word/Excel bị treo do vòng lặp nội suy và cấu trúc danh sách.",
+  "changelog_en": "• Fixed issue where clicking commands/tools on collapsed Ribbon had no effect due to premature dismissal canceling click events.\n• Added Pin Tool (KeepToolActive) feature to continuously add text, notes, and shapes for teaching and grading workflows.\n• Automatically commits current text annotation when clicking a new position to place the next text immediately; press ESC to exit to Select/Pan mode.\n• Added persistent default formatting (font family, font size, font color, bold/italic, stroke thickness) saved in settings.ini.\n• Enhanced ToolOptionPanel with font family selector, bold/italic toggles, Save Default button, and 3 quick 1-click presets (Grading, Study Notes, Standard).\n• Fixed hanging issues during PDF conversion to PowerPoint, Word, and Excel.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.11/HTP_PDF_Tools_Patch_v1.1.11.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.11/HTP_PDF_Tools_Setup_v1.1.11.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.11/HTP_PDF_Tools_Portable_v1.1.11.zip",
   "mandatory": false
 }
