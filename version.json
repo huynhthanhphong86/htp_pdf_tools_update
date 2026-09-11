@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.12",
-  "release_date": "2026-09-11",
+  "latest_version": "1.1.13",
+  "release_date": "2026-09-12",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
   "patch_size": "17.7 MB",
   "full_size": "170.3 MB",
-  "changelog_vi": "• Khắc phục triệt để lỗi khi chuyển đổi PDF sang Word, Excel, PowerPoint bị lệch định dạng trang và mất nội dung do lỗi tự sinh CropBox [0 0 0 0] của PDFsharp và thuật toán xóa nhầm dòng văn bản nằm sát đường kẻ.\n• Tự động chuẩn hóa tỷ lệ và kích thước slide PowerPoint đúng theo trang PDF gốc (Widescreen 16:9, A4...), sửa công thức tính cỡ chữ chuẩn 11-24pt thay vì bị co cụm về 8pt; tách text box độc lập theo từng dòng không bị dính liền cột.\n• Nâng cấp bộ chuyển đổi Excel gom cụm theo cao độ dòng và neo cột tọa độ ngang, phân bổ dữ liệu chính xác vào các cột riêng biệt, tự động nhận diện kiểu số.\n• Tối ưu hóa bộ chuyển đổi Word bảo toàn trọn vẹn số công văn, ngày tháng, hình ảnh, chữ ký và con dấu; loại bỏ bảng ảo gây vỡ đoạn văn.\n• Bổ sung cơ chế tự động làm sạch hộp trang (SanitizePageBoxes) khi lưu/chỉnh sửa và nạp script fallback an toàn qua LocalAppData cho người dùng cài đặt trong Program Files.",
-  "changelog_en": "• Thoroughly resolved issues during PDF conversion to Word, Excel, and PowerPoint where page formatting was corrupted and content was lost due to PDFsharp zero-size CropBox mutation and line overlap removal.\n• Standardized PowerPoint slide dimensions matching original PDF pages (16:9 widescreen, A4, etc.), fixed font sizing formula to preserve 11-24pt text, and separated text boxes by line.\n• Upgraded Excel converter with row clustering and column anchoring to prevent columns merging into Column A, with automatic number formatting.\n• Optimized Word converter preserving document numbers, dates, images, signatures, and stamps without phantom table splits.\n• Added automatic SanitizePageBoxes on save/edit and fallback script execution via LocalAppData for standard user accounts in Program Files.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.12/HTP_PDF_Tools_Patch_v1.1.12.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.12/HTP_PDF_Tools_Setup_v1.1.12.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.12/HTP_PDF_Tools_Portable_v1.1.12.zip",
+  "changelog_vi": "• Nâng cao chất lượng hiển thị PDF: Tối ưu bộ render với chế độ ForceHalftone và phép nội suy Bicubic chất lượng cao (HighQualityBicubic, PixelOffsetMode Half), giúp chữ scan, bảng biểu và ảnh tài liệu sắc nét, không bị nhòe vỡ hạt khi thu phóng.\n• Nâng cấp thanh trạng thái (Status Bar): Sắp xếp trực quan các nhóm công cụ điều hướng trang, nút vừa trang (Fit Page) và vừa chiều rộng (Fit Width), chế độ xem trang và thanh trượt thu phóng (Zoom Slider); khắc phục hiện tượng tràn hoặc ẩn nút trên các độ phân giải màn hình khác nhau (HD, Full HD).\n• Tối ưu tương tác thu phóng: Nhập trực tiếp tỷ lệ phần trăm zoom và tự động áp dụng khi rời chuột; tự động bật/tắt đồng bộ các nút điều hướng và thu phóng theo trạng thái mở tài liệu.",
+  "changelog_en": "• Enhanced PDF rendering quality: Enabled ForceHalftone rendering mode with HighQualityBicubic interpolation and half-pixel offset, providing sharp, crystal-clear text and graphics for scanned documents without blurriness during zoom.\n• Upgraded Status Bar layout: Intuitively organized page navigation, Fit Page and Fit Width controls, multi-page view modes, and zoom slider; resolved toolbar overflowing or clipping across various screen resolutions (HD, Full HD).\n• Optimized zoom interaction: Custom zoom percentages can be entered and applied directly upon focus loss; automatically synchronized enabled states for navigation and zoom tools based on document status.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.13/HTP_PDF_Tools_Patch_v1.1.13.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.13/HTP_PDF_Tools_Setup_v1.1.13.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.13/HTP_PDF_Tools_Portable_v1.1.13.zip",
   "mandatory": false
 }
