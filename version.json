@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.1.14",
-  "release_date": "2026-11-25",
+  "latest_version": "1.1.15",
+  "release_date": "2026-11-26",
   "min_supported_version": "1.0.0",
   "update_type": "patch",
-  "patch_size": "18.1 MB",
+  "patch_size": "19.3 MB",
   "full_size": "185.8 MB",
-  "changelog_vi": "• Lưu PDF được tạo từ Word, Excel, PowerPoint, văn bản và ảnh cùng thư mục với tệp nguồn; tự thêm số khi trùng tên để giữ các tệp đã có.\n• Thêm hộp thoại chuyển nhiều tệp sang PDF: xuất từng PDF riêng hoặc gộp thành một PDF, sắp xếp thứ tự bằng nút Lên/Xuống; hỗ trợ mở tệp, kéo thả và menu chuột phải trong Explorer.\n• Sửa lỗi lề trang bị đặt lại thành 2,54 cm khi đổi khổ giấy hoặc hướng giấy trong thuộc tính máy in.\n• Bổ sung thư viện chuyển đổi còn thiếu trong gói Setup/Portable; kiểm tra runtime Python ở chế độ cô lập khi đóng gói.",
-  "changelog_en": "• Save PDFs created from Word, Excel, PowerPoint, text and images next to their source files, adding a number when the output name already exists.\n• Add a multi-file PDF conversion dialog with individual PDF output or a single merged PDF, Up/Down ordering, and support for file opening, drag-and-drop and Explorer context menus.\n• Preserve user-defined page margins when changing paper size or orientation in printer properties instead of resetting them to 2.54 cm.\n• Complete the bundled conversion dependencies in Setup/Portable packages and validate Python in isolated mode during packaging.",
-  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Patch_v1.1.14.zip",
-  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Setup_v1.1.14.exe",
-  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Portable_v1.1.14.zip",
+  "changelog_vi": "• Kích hoạt trực tuyến bằng OTP email, mua bản quyền và nhập mã HTP; giữ giấy phép ngoại tuyến đã cấp.\n• Dùng thử 14 ngày theo mã máy trên máy chủ: gỡ/cài lại, xóa dữ liệu hoặc đổi email không bắt đầu lại thời gian dùng thử.\n• Chuyển ngày bắt đầu dùng thử cũ lên máy chủ; chỉ giữ nguyên hoặc rút ngắn hạn. Mất mạng không cấp lại dùng thử ngoại tuyến.\n• Bản quyền 199.000đ/máy, mua một lần cho major 1; Viewer vẫn miễn phí. Chứng chỉ giấy phép dùng ngoại tuyến tối đa 90 ngày và được làm mới khi kết nối.\n• Bao gồm các tối ưu bộ nhớ và khởi động đã kiểm tra cho tài liệu nhiều trang.",
+  "changelog_en": "• Activate online using email OTP and HTP license keys; previously issued offline licenses remain supported.\n• One-time 14-day machine trial stored on the server. Reinstallation, deleting local data or changing email does not restart it.\n• Migrate the earlier trial start date without extending the stored deadline; connection failures never grant a fresh offline trial.\n• VND 199,000 paid once for one PC and major version 1. PDF viewing stays free; licensed offline certificates last up to 90 days and renew online.\n• Includes verified startup and memory optimizations for large documents.",
+  "download_url_patch": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Patch_v1.1.15.zip",
+  "download_url_full": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Setup_v1.1.15.exe",
+  "download_url_portable": "https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Portable_v1.1.15.zip",
   "mandatory": false
 }

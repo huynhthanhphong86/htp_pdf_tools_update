@@ -1,35 +1,37 @@
-# HTP PDF Tools - Update & Release Distribution
+# HTP PDF Tools — Update & Release Distribution
 
-Kho phân phối chính thức metadata cập nhật và các gói phát hành của **HTP PDF Tools**.
+Kho phân phối metadata và gói cập nhật chính thức.
 
-## Phiên bản mới nhất: v1.1.14
+## Phiên bản mới nhất: v1.1.15
 
-Ngày phát hành: **25/11/2026**.
+Ngày phát hành: **26/11/2026**.
 
-| Gói tải xuống | Dung lượng | Cách dùng |
+| Gói | Dung lượng | SHA-256 |
 | --- | --- | --- |
-| [Patch ZIP](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Patch_v1.1.14.zip) | 18.1 MB | Cập nhật ứng dụng đã có sẵn |
-| [Setup EXE](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Setup_v1.1.14.exe) | 185.8 MB | Cài đặt hoặc cập nhật đầy đủ |
-| [Portable ZIP](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.14/HTP_PDF_Tools_Portable_v1.1.14.zip) | 302.3 MB | Giải nén và chạy trực tiếp |
+| [HTP_PDF_Tools_Setup_v1.1.15.exe](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Setup_v1.1.15.exe) | 185.8 MB | `08c7240560b76388982f45be3480820e43b7240e5363bb18318eb4a842114e3c` |
+| [HTP_PDF_Tools_Portable_v1.1.15.zip](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Portable_v1.1.15.zip) | 302.4 MB | `8004004ef10e398e65d16a4dce881921f442aba8c102ded4b30a5172840349ea` |
+| [HTP_PDF_Tools_Patch_v1.1.15.zip](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/download/v1.1.15/HTP_PDF_Tools_Patch_v1.1.15.zip) | 19.3 MB | `119d418aeb8b5bb1c382f5c6c211fdaf95dc81798010dc2bfa9146784d855c3d` |
 
-[Trang phát hành v1.1.14](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/tag/v1.1.14)
+## Thay đổi
 
-## Thay đổi trong v1.1.14
+- Kích hoạt trực tuyến bằng OTP email, mua bản quyền và nhập mã HTP; giữ giấy phép ngoại tuyến đã cấp.
+- Dùng thử 14 ngày theo mã máy trên máy chủ: gỡ/cài lại, xóa dữ liệu hoặc đổi email không bắt đầu lại thời gian dùng thử.
+- Chuyển ngày bắt đầu dùng thử cũ lên máy chủ; chỉ giữ nguyên hoặc rút ngắn hạn. Mất mạng không cấp lại dùng thử ngoại tuyến.
+- Bản quyền 199.000đ/máy, mua một lần cho major 1; Viewer vẫn miễn phí. Chứng chỉ giấy phép dùng ngoại tuyến tối đa 90 ngày và được làm mới khi kết nối.
+- Bao gồm các tối ưu bộ nhớ và khởi động đã kiểm tra cho tài liệu nhiều trang.
 
-- Lưu PDF tạo từ Word, Excel, PowerPoint, văn bản và ảnh cùng thư mục với tệp nguồn. Tự thêm số khi trùng tên để giữ các tệp đã có.
-- Chuyển nhiều tệp thành từng PDF riêng hoặc gộp thành một PDF. Có nút Lên/Xuống để sắp thứ tự; hỗ trợ mở tệp, kéo thả và menu chuột phải trong Explorer.
-- Giữ nguyên lề đã đặt khi đổi khổ giấy hoặc hướng giấy trong thuộc tính máy in, khắc phục lỗi lề bị đặt lại thành 2,54 cm.
-- Bổ sung thư viện chuyển đổi còn thiếu trong gói Setup/Portable; kiểm tra runtime Python ở chế độ cô lập khi đóng gói.
+## Changes
 
-## Changes in v1.1.14
+- Activate online using email OTP and HTP license keys; previously issued offline licenses remain supported.
+- One-time 14-day machine trial stored on the server. Reinstallation, deleting local data or changing email does not restart it.
+- Migrate the earlier trial start date without extending the stored deadline; connection failures never grant a fresh offline trial.
+- VND 199,000 paid once for one PC and major version 1. PDF viewing stays free; licensed offline certificates last up to 90 days and renew online.
+- Includes verified startup and memory optimizations for large documents.
 
-- Save PDFs created from Word, Excel, PowerPoint, text and images next to their source files. Add a number when an output name already exists.
-- Convert multiple selected files into individual PDFs or a single merged PDF, with Up/Down ordering and support for file opening, drag-and-drop and Explorer context menus.
-- Preserve custom margins when changing paper size or orientation in printer properties instead of resetting them to 2.54 cm.
-- Complete the bundled conversion dependencies in Setup/Portable packages and validate Python in isolated mode during packaging.
+## Kiểm tra
 
-## Kiểm tra phát hành
+Release build, 18 kiểm tra máy chủ với SQLite, 36 kiểm tra bản quyền trên gói phân phối, 48 kiểm tra hiệu năng và chuyển PDF sang DOCX/XLSX/PPTX trong runtime cô lập đều đạt. Live smoke trên máy chủ xác nhận hạn dùng thử không đổi sau mô phỏng xóa dữ liệu/cài lại. Chưa nghiệm thu OTP trong hộp thư, giao dịch tiền thật hoặc gỡ/cài trên máy Windows thử riêng.
 
-Release build và 53 kiểm tra tự động cho luồng PDF: chuyển Word/Excel/ảnh, vị trí lưu, trùng tên, thứ tự gộp, hủy tác vụ và giữ lề. Chưa nghiệm thu in trên máy in thật.
+Bộ cài chưa ký số. Windows 10/11 64-bit, .NET Framework 4.8. Dùng thử cần Internet; cài lại Windows hoặc thay ổ hệ thống có thể đổi mã máy.
 
-[Kho mã nguồn](https://github.com/huynhthanhphong86/htp_pdf_tools_free) · [Metadata cập nhật](version.json)
+[Trang phát hành](https://github.com/huynhthanhphong86/htp_pdf_tools_update/releases/tag/v1.1.15) · [Mã nguồn](https://github.com/huynhthanhphong86/htp_pdf_tools_free) · [Website](https://phanmemso.vn/htp-pdf-tools/)
